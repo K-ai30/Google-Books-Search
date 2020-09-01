@@ -1,0 +1,19 @@
+{
+  "name": "google-books-search",
+  "version": "1.0.0",
+  "description": "google api app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K-ai30/Google-Books-Search.git"
+  },
+  "author": "Alia Kyle Perry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-ai30/Google-Books-Search/issues"
+  },
+  "homepage": "https://github.com/K-ai30/Google-Books-Search#readme"
+}
