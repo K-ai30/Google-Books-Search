@@ -16,7 +16,17 @@
     "url": "https://github.com/K-ai30/Google-Books-Search/issues"
   },
   "homepage": "https://github.com/K-ai30/Google-Books-Search#readme",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.7"
+  },
   "dependencies": {
-    "axois": "0.0.1-security"
+    "axios": "^0.18.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "if-env": "^1.0.4",
+    "mongoose": "^5.3.16"
   }
 }
