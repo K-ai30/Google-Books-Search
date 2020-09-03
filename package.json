@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/K-ai30/Google-Books-Search/issues"
   },
-  "homepage": "https://github.com/K-ai30/Google-Books-Search#readme"
+  "homepage": "https://github.com/K-ai30/Google-Books-Search#readme",
+  "dependencies": {
+    "axois": "0.0.1-security"
+  }
 }

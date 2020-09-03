@@ -6,4 +6,20 @@ export default {
   getBooks: function () {
     return axios.get(BookURL);
   },
+
+  getIndividualBook: function () {
+    return axios.get("/api/books");
+  },
+
+  getBookId: function (id) {
+    return axios.get("/api/books" + id);
+  },
+
+  saveBook: function (savedBook) {
+    return axios.get("/api/books", savedBook);
+  },
+
+  deleteBook: function (id) {
+    return axios.get("/api/books" + id);
+  },
 };
