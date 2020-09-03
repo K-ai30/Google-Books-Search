@@ -1,0 +1,18 @@
+.navbar-brand {
+    float: left;
+}
+
+#appName {
+    color: black;
+    float: left;
+}
+
+#appName, #searchBtn, #savedBtn {
+    display: inline;
+    border: none;
+    background-color: transparent;
+}
+
+#searchBtn {
+    margin-left: 20px;
+}
