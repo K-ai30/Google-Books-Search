@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Navbar() {
+function Navbar({ children }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="d-flex justify-content-end">

@@ -1,0 +1,23 @@
+.card-header {
+    text-align: left;
+}
+
+a {
+    float: right;
+}
+
+#bookSearch {
+    text-align: left;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/* .form-control, #search {
+    display: inline;
+} */
+
+#search {
+    margin-top: 15px;
+}

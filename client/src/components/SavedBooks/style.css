@@ -1,0 +1,41 @@
+#border {
+    border: 1px solid gray;
+}
+
+/* #view {
+    float: left;
+} */
+
+/* #delete {
+    float: right;
+} */
+
+#view,
+#delete {
+    display: inline;
+    margin: 2px;
+    clear: right;
+}
+
+#title {
+    float: left;
+}
+
+#author {
+    float: left;
+    clear: left;
+}
+
+#pictureBook {
+    float: left;
+    clear: left;
+}
+
+#description {
+    float: right;
+    /* clear: right; */
+}
+
+.clearfix {
+    overflow: auto;
+}
