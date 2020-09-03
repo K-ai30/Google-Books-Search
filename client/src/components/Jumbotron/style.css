@@ -1,0 +1,14 @@
+.jumbotron {
+    margin-top: 25px;
+    background-color: rgba(0,0,0,.03);
+}
+
+#heading {
+    color: #ffffff;
+    text-align: center;
+}
+
+#subheading {
+    color: #ffffff;
+    text-align: center;
+}

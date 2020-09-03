@@ -1,3 +1,9 @@
+body {
+    background-image: url("../../images/books.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .navbar-brand {
     float: left;
 }
