@@ -47,7 +47,7 @@ Or, visit the deployed version at:
 
 ### Notes
 
-I started building this application in an effort to achieve a minimum viable product (MVP). To that end, we hope to achieve some future dated development ideas that will enhance the functionality and user engagement within the application.
+I started building this application in an effort to achieve a minimum viable product (MVP). To that end, I hope to achieve some future dated development ideas that will enhance the functionality and user engagement within the application.
 
 ### Author
 

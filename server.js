@@ -6,8 +6,8 @@ const app = express();
 require("dotenv").config();
 const PORT = process.env.PORT || 3012;
 
-const path = require("path");
-const db = require("./models");
+// const path = require("path");
+// const db = require("./models");
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
