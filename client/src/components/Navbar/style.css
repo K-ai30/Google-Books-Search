@@ -1,8 +1,8 @@
-body {
+/* body {
     background-image: url("../../images/books.jpg");
     background-size: cover;
     background-attachment: fixed;
-}
+} */
 
 .navbar-brand {
     float: left;
@@ -21,6 +21,13 @@ body {
     background-color: transparent;
 }
 
+#savedBtn {
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+}
+
 #searchBtn {
     margin-left: 20px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
 }
