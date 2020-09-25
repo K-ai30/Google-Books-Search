@@ -5,6 +5,8 @@ import React from "react";
 
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
+import BookSearch from "./components/BookSearch";
+import Results from "./components/Results";
 
 import "./App.css";
 
@@ -15,6 +17,8 @@ function App() {
     <div>
         <Navbar />
         <Jumbotron />
+        <BookSearch />
+        <Results />
     </div>
     //     <Switch>
     //       <Route exact path="/" component={bookSearch} />

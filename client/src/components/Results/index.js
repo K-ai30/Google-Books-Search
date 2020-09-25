@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function Results({ children }) {
+const Results = props => {
   return (
     <div className="container">
       <div className="card bg-light">

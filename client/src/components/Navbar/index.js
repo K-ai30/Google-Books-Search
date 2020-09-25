@@ -5,7 +5,7 @@ function Navbar({ children }) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="/">
-        <h2 className="appName">Google Book Search</h2>
+        <h2 className="appName">Google Books Search</h2>
       </a>
       <div className="d-flex justify-content-end">
         <ul className="navbar-nav">

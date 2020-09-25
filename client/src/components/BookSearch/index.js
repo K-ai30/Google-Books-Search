@@ -1,37 +1,34 @@
 import React from "react";
 import "./style.css";
 
-function BookSearch({ children }) {
+const BookSearch = props => {
   return (
     <div className="container">
       <div className="card bg-light">
         <div className="card-header bg-secondary text-white">
-          <i className="fas fa-book"></i> Book Search
+          <i className="fas fa-book"></i> Search For Book
         </div>
         <div className="card-body">
           <h5 id="bookSearch" className="card-title">
-            Book
+            By Title
           </h5>
           <input
-            // value={this.state.value}
-            // onChange={(e) => {
-            //   this.handleChange(e);
-            // }}
-            id="field"
-            type="book"
             className="form-control"
-            id="exampleFormControlInput1"
-            placeholder="Timeline"
+            id="field"
+            value={props.search}
+            type="text"
+            name="searchBook"
+            placeholder="Enter Book's Title"
+            onChange={props.handleInputChange}
           />
-          <a
-            // onClick={this.handleClick.bind(this)}
-            id="search"
-            href="#"
-            Î
+          <button
             className="btn btn-danger"
+            id="search"
+            type="submit"
+            onClick={props.handleFormSubmit}
           >
             Search
-          </a>
+          </button>
         </div>
       </div>
     </div>
