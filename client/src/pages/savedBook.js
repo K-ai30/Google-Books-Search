@@ -1,11 +1,10 @@
-import React, { Components } from "react";
+import React, { Component } from "react";
 import API from "../utils/API";
-import Jumbotron from "../Components/Jumbotron";
-import { Container } from "../Components/Grid";
-import Results from "../Components/Results";
+import Jumbotron from "../Component/Jumbotron";
+import { Container } from "../Component/Grid";
+import Results from "../Component/Results";
 
-
-class savedBook extends component {
+class savedBook extends Component {
     // Set the state
     state = {
         savedBook: []
@@ -29,9 +28,7 @@ class savedBook extends component {
         return (
             <Container>
                 <Jumbotron/>
-                <Container>
-                    <Results savedBook={this.state.savedBook} handleDelete={this.handleDelete}/>
-                </Container>
+                <Results savedBook={this.state.savedBook} handleDelete={this.handleDelete}/>
             </Container>
         )
     }
